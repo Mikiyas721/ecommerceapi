@@ -13,12 +13,12 @@
       "./mixins"
     ]
   },
-  "product": {
-    "dataSource": null,
+  "user": {
+    "dataSource": "mongodb",
     "public": true
   },
-  "user": {
-    "dataSource": null,
+  "product": {
+    "dataSource": "mongodb",
     "public": true
   }
 }

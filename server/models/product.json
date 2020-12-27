@@ -20,8 +20,7 @@
       "required": true
     },
     "quantity": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "postedTime": {
       "type": "date",
