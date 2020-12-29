@@ -20,5 +20,9 @@
   "product": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "container": {
+    "dataSource": "mongo_file_store",
+    "public": true
   }
 }

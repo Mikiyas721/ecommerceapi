@@ -21,7 +21,10 @@
     "email": {
       "type": "string"
     },
-    "imageUrl": {
+    "imageName": {
+      "type": "string"
+    },
+    "container": {
       "type": "string"
     }
   },
