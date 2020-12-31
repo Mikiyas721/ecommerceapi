@@ -24,21 +24,16 @@
     "imageName": {
       "type": "string"
     },
+	"password": {
+	  "type": "string",
+	  "required": true
+	},
     "container": {
       "type": "string"
     }
   },
   "validations": [],
-  "relations": {
-    "user": {
-      "type": "hasMany",
-      "model": "product",
-      "foreignKey": "user_id",
-      "options": {
-        "nestRemoting": true
-      }
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }
