@@ -7,6 +7,10 @@
     "validateUpsert": true
   },
   "properties": {
+    "myId": {
+	  "type": "string",
+      "required": true
+	},
     "name": {
       "type": "string",
       "required": true
@@ -42,6 +46,11 @@
       "type": "boolean",
       "required": true
     },
+	"swapOptions":{
+      "type": [
+	    "string"
+	  ]
+	},
 	"phoneNumber":{
 	  "type": "number",
 	  "required": true
