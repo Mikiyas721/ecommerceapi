@@ -55,6 +55,10 @@
 	  "type": "number",
 	  "required": true
 	},
+	"approved":{
+	  "type": "boolean",
+      "required": true
+	},
     "container": {
       "type": "string"
     }
