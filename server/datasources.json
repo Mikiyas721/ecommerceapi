@@ -10,12 +10,6 @@
     "useNewUrlParser": true,
     "connector": "mongodb"
   },
-  "local_storage": {
-    "name": "local_storage",
-    "connector": "loopback-component-storage",
-    "provider": "filesystem",
-    "root":"./server/local_storage"
-  },
   "mongo_file_store": {
     "host": "localhost",
     "port": 27017,
